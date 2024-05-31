@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #90e0ef;
+    font-family: Poppins;
+}
+
+.headerContainer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px 20px 20px;
+    border-radius: 50px;
+    background-color: rgba(0, 119, 182, 0.5);
+}
+
+.header{
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+}
+
+.taskAdderContainer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskAdder{
+    margin: 20px 10px 20px 10px;
+    width: 30vw;
+    background-color: rgba(3, 4, 94, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.taskAdder h2{
+    margin: 1vh 1vw;
+}
+
+.taskAdder input{
+    margin: 1vh 1vw;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.taskAdder #submitBtn{
+    margin: 1vh 1vw;
+    padding: 5px 10px 5px 10px;
+}
+
+.allTasksContainer {
+    display: flex;
+    flex-direction: row ;
+    align-items: center; 
+    justify-content: center;
+    gap: 20px; 
+}
+
+.task-box {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+}
+
+.task-box h2 {
+    margin-top: 0;
+}
+
+.not-done-tasks {
+    border: 2px solid #ff6f61;
+}
+
+.completed-tasks {
+    border: 2px solid #4caf50;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.strikeable{
+    cursor: pointer;
+}
+
+.strike-through{
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.doneTask{
+    text-decoration: none;
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1s;
+    transition: all 1s;
+}

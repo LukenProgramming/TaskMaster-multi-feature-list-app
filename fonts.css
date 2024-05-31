@@ -1,0 +1,17 @@
+@font-face {
+    font-family: SanFranProBold;
+    src: url(fonts/SFPRODISPLAYBOLD.OTF);
+}
+@font-face {
+    font-family: coolvetica;
+    src: url(fonts/coolvetica\ rg.otf);
+}
+@font-face {
+    font-family: ltsaeda;
+    src: url(fonts/LTSaeada-Regular.otf);
+}
+
+@font-face {
+    font-family: SanFranProNormal;
+    src: url(/fonts/SFPRODISPLAYMEDIUM.OTF);
+}
