@@ -50,6 +50,7 @@ body{
     padding: 10px;
     border: none;
     border-radius: 10px;
+    width: 25vw;
 }
 
 .taskAdder #submitBtn{
@@ -120,4 +121,7 @@ li:last-child {
 .show{
     opacity: 1s;
     transition: all 1s;
+}
+@media (max-width: 768px){
+
 }
