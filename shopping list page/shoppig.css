@@ -84,9 +84,19 @@ body{
 
 .strikeable{
     cursor: pointer;
+    transition: all 1s ease-in-out;
 }
 
 .strike-through{
     text-decoration: line-through;
     cursor: pointer;
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 2s;
+}
+
+.show{
+    opacity:1;
 }
