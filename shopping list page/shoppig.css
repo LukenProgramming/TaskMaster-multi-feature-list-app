@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #00509d;
+    font-family: Poppins;
+    color: #fdc500;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header{
+    background-color: #003f8879;
+    margin: 10px;
+    border-radius: 20px;
+    padding:20px;
+}
+
+.header a{
+    color: #ffd500;
+}
+
+.itemAdderContainer{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.itemAdder{
+    background-color: #003f8879;
+    border-radius: 20px;
+    padding: 20px;
+    width: 45vw;
+}
+
+.itemAdder input{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-family: Poppins;
+    width: 35vw;
+}
+
+.listDivContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listDiv{
+    background-color: #003f8879;
+    border-radius: 20px;
+    padding: 20px;
+    width: 45vw;
+    text-align: center;
+}
+
+.listDiv li{
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1s;
+    transition: all 1s;
+}
+
+.strikeable{
+    cursor: pointer;
+}
+
+.strike-through{
+    text-decoration: line-through;
+    cursor: pointer;
+}
