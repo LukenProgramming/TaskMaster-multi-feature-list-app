@@ -15,3 +15,7 @@
     font-family: SanFranProNormal;
     src: url(/fonts/SFPRODISPLAYMEDIUM.OTF);
 }
+@font-face {
+    font-family: Poppins;
+    src: url(/fonts/Poppins-Regular.ttf);
+}

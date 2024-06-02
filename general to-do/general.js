@@ -66,8 +66,8 @@ const getNewTask = () => {
         ul.appendChild(li).classList.add('strikeable', 'notDoneTask');
         saveTasksToLocalStorage();
         newTaskField.value = "";
-        dateElement.value = ""; // Clear date input
-        radioButtons.forEach(radio => radio.checked = false); // Clear radio buttons
+        dateElement.value = ""; 
+        radioButtons.forEach(radio => radio.checked = false);
         dateElement.classList.add('hidden');
         dateElement.classList.remove('show');
     }
