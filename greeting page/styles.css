@@ -63,3 +63,37 @@ body{
     color: aquamarine;
     font-size: 36pt;
 }
+
+.gitHubLinkContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gitHubLink{
+    text-align: center;
+    margin:5pxx;
+    background-color: #ff1d74;
+    padding: 20px;
+    border-radius:20px ;
+    color: white;
+    font-size: 10pt;
+}
+
+.gitHubLink a{
+    color: white;
+}
+
+.gitHubLink a:hover{
+    color: #70d6ff;
+    font-size: 15pt;
+}
+
+.coffeeContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+}
+
