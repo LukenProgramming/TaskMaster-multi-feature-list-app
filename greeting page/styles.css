@@ -97,3 +97,14 @@ body{
 
 }
 
+@media (max-width : 768px){
+    .header p{
+        font-size: 12pt;
+    }
+    .sitesLinks a{
+        font-size: 18pt;
+    }
+    .sitesLinks a:hover{
+        font-size: 22pt;
+    }
+}
