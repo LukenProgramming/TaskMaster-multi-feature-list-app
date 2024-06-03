@@ -18,7 +18,7 @@ We have 3 main apps as said:
    - Strikes through a item when it is picked up
 3. A Traffic light system app for tracking work progress
    - Shows 3 types of tasks progression:
-      - Not started
-      - Doing
-      - Done
+      - Not started🔴
+      - Doing🟡
+      - Done🟢
    - Helps get users track their progress and gets teams working together
