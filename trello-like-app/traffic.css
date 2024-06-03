@@ -5,7 +5,7 @@
 
 body{
     background-color: #ade8f4;
-    font-family: Poppins;
+    font-family: DMSans;
     color:black;
 
 }
@@ -97,20 +97,29 @@ button{
 .notStarted{
     color: red;
     font-size: 19pt;
+    transition: all 1s;
 }
 
 .doing{
-    color: yellow;
+    color: rgb(185, 185, 0);
     font-size: 19pt;
+    transition: all 1s;
 }
 
 .done{
     color: green;
     font-size: 19pt;
+    transition: all 1s;
 }
 
 li{
-    list-style-type: none;
+    font-family: coolvetica;
+    margin: 5px;
+    list-style-type: circle;
+}
+
+.doneList li{
+    list-style: disc;
 }
 
 li:hover{
