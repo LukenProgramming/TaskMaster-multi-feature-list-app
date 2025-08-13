@@ -1,0 +1,56 @@
+@font-face {
+    font-family: SanFranProBold;
+    src: url(fonts/SFPRODISPLAYBOLD.OTF);
+}
+@font-face {
+    font-family: coolvetica;
+    src: url(fonts/coolvetica\ rg.otf);
+}
+@font-face {
+    font-family: ltsaeda;
+    src: url(fonts/LTSaeada-Regular.otf);
+}
+@font-face {
+    font-family: SanFranProNormal;
+    src: url(/fonts/SFPRODISPLAYMEDIUM.OTF);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoSlab;
+    src: url(/fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: UbuntuNormal;
+    src: url(/fonts/Ubuntu-Regular.ttf);
+}
+@font-face {
+    font-family: UbuntuOther;
+    src: url(/fonts/Ubuntu-Medium.ttf);
+}
+@font-face {
+    font-family:MerriweatherNormal;
+    src: url(/fonts/Merriweather-Regular.ttf);
+}
+@font-face {
+    font-family: MerriWeatherBold;
+    src: url(/fonts/Merriweather-Bold.ttf);
+}
+@font-face {
+    font-family: UbuntuBold;
+    src: url(/fonts/Ubuntu-Bold.ttf);
+}
+@font-face {
+    font-family: DMSans;
+    src: url(/fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: Kanit;
+    src: url(/fonts/Kanit/Kanit-Regular.ttf);
+}
+@font-face {
+    font-family:KanitBold;
+    src: url(/fonts/Kanit/Kanit-Bold.ttf);
+}
